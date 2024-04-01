@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class aula02 {
+public class sumCalc {
 
     public static void main(String[] args) {
     System.out.println("calculadora de soma");

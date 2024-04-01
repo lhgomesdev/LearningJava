@@ -1,0 +1,1 @@
+This tool i just used to learn how to format code using "printf" and is a simple sum calculator. 📐

@@ -1,0 +1,1 @@
+This tool is used to calculate your BMI and then sends the result. (IT IS NOT PRECISE, PLEASE GO SEE A DOCTOR) ⚖️
