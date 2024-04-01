@@ -1,2 +1,1 @@
-# LearningJava
-just learning java
+Just learning and training java here, nothing much ☕
