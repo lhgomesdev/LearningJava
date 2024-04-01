@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class BMI {
     public static void main(String[] args) throws Exception {
 
@@ -14,11 +15,11 @@ public class BMI {
     System.out.printf("%.2f", imc);
 
     if (imc <= 19) {
-        System.out.println("voce esta em situação de baixo peso");
+        System.out.println("Você está em situação de baixo peso.");
     } else if ((imc > 19) && (imc <= 25)) {
-        System.out.println("Voce esta em peso normal");
+        System.out.println("O seu peso está normal.");
     } else if (imc > 25) {
-    System.out.println(" Voce esta em situaçao de sobrepeso");
+    System.out.println(" Você está em situação de sobrepeso.");
     }
     
     input.close();
