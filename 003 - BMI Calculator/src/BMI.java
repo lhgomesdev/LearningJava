@@ -19,7 +19,7 @@ public class BMI {
     } else if ((imc > 19) && (imc <= 25)) {
         System.out.println("O seu peso está normal.");
     } else if (imc > 25) {
-    System.out.println(" Você está em situação de sobrepeso.");
+    System.out.println("Você está em situação de sobrepeso.");
     }
     
     input.close();
