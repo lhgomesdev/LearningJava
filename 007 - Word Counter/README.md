@@ -1,0 +1,1 @@
+A Tool that counts the number of words in the input string. 📜
