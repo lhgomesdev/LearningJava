@@ -103,23 +103,29 @@ public class App {
         input.close();
     }
     
-    public static void catacombQuest(){
+    public static void villageQuest(){
         System.out.println("""
-            Placeholder
-            [1] - Placeholder
-            [2] - Placeholder
+            Você escolheu ir descobrir o segredo da vila!
+            Chegando na porteira da vila, você sente um clima estranho, você percebe que no centro da vila tem um grande cajado sugando toda a energia vital da mesma...
+            Você sendo um grande mago se percebe podendo fazer duas coisas:
+            [1] - Rejeitar o poder do cajado e tentar remover ele.
+            [2] - Aceitar o poder do cajado e se tornar o novo imperador das sombras.
             """);
         Scanner input = new Scanner(System.in);
         int resposta = input.nextInt();
         switch (resposta) {
             case 1:
                 System.out.println("""
-                    WinPlaceholder
+                    Você escolheu rejeitar o poder do cajado e tentar remover ele.
+                    A vontade de aceitar ele é muito forte, mas você rejeita e se torna o mago supremo.
+                    Parabéns você terminou o jogo!!!
                     """);
                 break;
             case 2:
                 System.out.println("""
-                    DeathPlaceholder
+                    Você escolheu aceitar o poder do cajado e se tornar o novo imperador das sombras.
+                    Você agora governa o mundo das sombras, o seu dever é lutar contra o mago supremo e impedir que ele acabe com o seu reinado.
+                    Parabéns você terminou o jogo!!!
                     """);
                 break;
             default:
@@ -156,7 +162,7 @@ public class App {
     public static void mageQuests() {
         System.out.println("Bem vindo, Mago! Escolha uma missão:");
         System.out.println("[1] Recupere o Tomo da mágia infinita");
-        System.out.println("[2] Descubra o Segredo da Catacumba amaldiçoada");
+        System.out.println("[2] Descubra o Segredo da vila fantasma");
 
         Scanner input = new Scanner(System.in);
         int missao = input.nextInt();
@@ -166,8 +172,8 @@ public class App {
                 tomeQuest();
                 break;
             case 2:
-                System.out.println("Você escolheu ir descubrir o Segredo da Catacumba!");
-                catacombQuest();
+                System.out.println("Você escolheu ir descubrir o Segredo da vila fantasma!");
+                villageQuest();
                 break;
             default:
                 System.out.println("Escolha inválida, insira um numero para confirmar sua ação.");
