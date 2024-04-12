@@ -1,5 +1,5 @@
 import java.util.*;
-
+// MADE BY github.com/Jakei200506
 public class App {
     public static void orcQuest(){
         System.out.println("""
