@@ -191,7 +191,7 @@ public class App {
             Escolha sua classe:
             [1] - Guerreiro
             [2] - Mago
-            (Mais Classes futuramente...)
+            (Mais Classes futuramente..)
             """);
         Scanner input = new Scanner(System.in);
         int classe = input.nextInt();
